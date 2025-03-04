@@ -36,9 +36,3 @@ Destination: AA:BB:CC:DD:EE:FF, Source: 11:22:33:44:55:66, Protocol: 8
 - This script works **only on Linux** due to the use of `AF_PACKET` sockets.
 - Requires **sudo/root** privileges to access raw network packets.
 - Can be further expanded to parse IP headers, TCP/UDP packets, etc.
-
-## Future Enhancements
-
-- Add IPv4/IPv6 packet parsing.
-- Extract TCP/UDP headers for deeper packet analysis.
-- Save logs for further inspection and analysis.
