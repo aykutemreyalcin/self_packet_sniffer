@@ -1,5 +1,7 @@
 import socket
 
+print("You need to be Sudo...")
+
 def get_mac_address(byte_address):
     return ':'.join(f'{byte:02x}' for byte in byte_address).upper()
 
